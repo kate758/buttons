@@ -5,49 +5,70 @@
     <title>Buttons</title>
   </head>
   <body>
-    <!--USERNAME-->
-    <label for="username">Username:</label>
-    <input id="username" type="text" placeholder="username here" required>
 
-    <!--EMAIL-->
-    <label for="email">Email:</label>
-    <input id="email" type="email" placeholder="email address" required>
+    <form>
+      <!--USERNAME-->
+      <label for="username">Username:</label>
+      <input id="username" type="text" placeholder="username here" required>
+      <p></p>
 
-    <!--DATE-->
-    <label for="date">Date:</label>
-    <input id="date" type="date" required>
+      <!--EMAIL-->
+      <label for="email">Email:</label>
+      <input id="email" type="email" placeholder="email address" required>
+      <p></p>
 
-    <!--COLOR-->
-    <label for="color">Color:</label>
-    <input id="color" type="color" required>
+      <!--DATE-->
+      <label for="date">Date:</label>
+      <input id="date" type="date" required>
+      <p></p>
 
-    <!--FILE-->
-    <label for="file">File:</label>
-    <input id="file" type="file" required>
+      <!--COLOR-->
+      <label for="color">Color:</label>
+      <input id="color" type="color" required>
+      <p></p>
+      <!--FILE-->
+      <label for="file">File:</label>
+      <input id="file" type="file" required>
+      <p></p>
 
-    <!--CHECKBOX-->
-    <label for="checkbox">Checkbox:</label>
-    <input id="checkbox" type="checkbox" required>
+      <!--CHECKBOX-->
+      <label for="checkbox">Checkbox:</label>
+      <input id="checkbox" type="checkbox" required>
+      <p></p>
 
-    <!--RADIO-->
-    <label for="cats">Cats:</label>
-    <input id="choiceCat" type="radio" name="pet">
+      <!--RADIO-->
 
-    <label for="dogs">Dogs:</label>
-    <input id="choiceDog" type="radio" name="pet">
+      <label for="cats">Cats:</label>
+      <input id="cat" type="radio" name="pet" value="CATS">
 
-    <p></p>
+      <label for="dogs">Dogs:</label>
+      <input id="dog" type="radio" name="pet" value="DOGS">
+      <p></p>
 
-    <!-- Radio 2 -->
-    <input type="radio" id="Cat" name="pet">
-    <label for="Cat">Cat</label>
+      <!-- SELECT -->
+      <p>What's your current mood?</p>
+      <select name="mood">
+        <option value="Happy">RED</option>
+        <option value="Neutral">ORANGE</option>
+        <option value="Sad">YELLOW</option>
+      </select>
+      <p></p>
 
-    <input type="radio" id="Dog" name="pet">
-    <label for="Dog">Dog</label>
+      <!-- TEXT AREA -->
+      <textarea name="biography" rows="10" cols="15" placeholder="Hello, my name is ..."></textarea>
+      <p></p>
 
-    <!-- SUBMIT -->
-    <label for="submit">Submit:</label>
-    <input id="submit" type="submit" required>
+      <!-- SUBMIT -->
+      <label for="submit">Submit:</label>
+      <input id="submit" type="submit" required>
+      <p></p>
 
+      <!-- BUTTON -->
+      <button>Go!</button>
+      <p></p>
+
+
+
+    </form>
   </body>
 </html>
